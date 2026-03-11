@@ -1,0 +1,46 @@
+      /*reset*/
+      * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+      /*Body*/
+      body{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+ 
+      /*Formulário e componentes*/
+       form{
+         background-color:lightblue;
+         width: 300px;
+         margin: 15px;
+         padding: 15px;
+         border-radius: 10px;
+         text-align: center;
+       }  
+        label {
+         display:block;
+         margin-bottom:3px ;
+         color:black;
+         font-weight:bold;
+       }
+        input {
+        
+        width: 90%;
+        padding: 10px;
+        margin-bottom:15px;
+        border: 0px solid black;
+        border-radius: 3px;
+          
+       }
+       
+       button{
+        background-color: aliceblue;
+        color:black;
+        font-weight: bold;
+        font-size: 14px;
+
+       }
